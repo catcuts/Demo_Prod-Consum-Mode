@@ -1,0 +1,2 @@
+start linstening UPD on port 9999
+from 192.168.38.183:64194 received data: Michael, Tracy, Sarah, Catcuts, Adam, Bob, Lucy, HanMeimei, LiLei

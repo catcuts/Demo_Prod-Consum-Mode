@@ -1,14 +1,51 @@
-
 # -*- coding:utf-8 -*-
+
+# 概述：udp 服务器，管理 udp 连接、关闭、接收、发送
+# 工作：
+#     1.  收到数据后 -> 开启生产者线程
+# 注释：
+#     1.  UDP 没有连接的概念，因此它的协议 DatagramProtocol 不像 TCP 中的协议 Protocol ，有 connectionMade 方法
+
+import os
+import sys
+import time
 import twisted
 from twisted.internet.protocol import DatagramProtocol
-from twisted.internet import reactor
+from utils.printl import printl
+from config.base import logfilePath
 
-class Echo(DatagramProtocol):
+class udpServer(DatagramProtocol):
+
+    def __init__(self):
+        self.datas = []
+        self.lastPort = ''
+        self.log = ''
+
+    def startProtocol(self):  # 其实就是 start updServer ，或许 class udpServer 改名 class updProtocol 会比较合适
+        pass
+
+    def stopProtocol(self):  # stop udpServer
+        printl(self.log, logfilePath, toConsole=False)  # 记录而不打印控制台
 
     def datagramReceived(self, data, (host, port)):
-        print "received %r from %s:%d" % (data, host, port)
-        self.transport.write(data, (host, port))
+        if port != self.lastPort:  # 如果端口和上一次不一样
+            if self.log:
+                printl(self.log, logfilePath, toConsole=False)  # 记录而不打印控制台
+            self.lastPort = port  # 重置上次端口
+            self.datas = []  # 清空数据
+            sys.stdout.write('\n')  # 控制台换行重新输出
 
-reactor.listenUDP(9999, Echo())
-reactor.run()
+        time.sleep(1)  # 模拟数据处理所需时间
+
+        self.datas.append(data)  # push data
+
+        sys.stdout.write(' ' * 1 + '\r')  # 从头（\r）覆盖
+        sys.stdout.flush()  # 暂时输出
+
+        sys.stdout.write('from %s:%d received data: ' % (host, port))  # 不换行
+        sys.stdout.write(', '.join(self.datas) + '\r')  # 从头（\r）覆盖
+        sys.stdout.flush()  # 暂时输出
+
+        self.log = ('from %s:%d received data: ' % (host, port)) + ', '.join(self.datas)
+
+        self.transport.write(data+': mewo', (host, port))
