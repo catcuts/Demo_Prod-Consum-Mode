@@ -13,87 +13,60 @@ import twisted
 from twisted.internet.protocol import DatagramProtocol
 from utils.printl import printl
 from config.base import logfilePath
-from Queue import Queue
+from Queue import PriorityQueue
 from twisted.internet import reactor
-
-caches={}
-
-
-def savedata(client):
-    cache=caches.get(client,None)
-    queue=cache["queue"]
-    datas=ByteIO()
-    datalen=queue.qsize()
-    while True:
-        cur_time=time.time
-        if cur_time-time>10:
-            break;
-
-
-    data=queue.get(data)
-    datas.write(data)
-
-    with open("ffff.dat","wb") as f
-        f.write
-
-    del cache
-
-
-
 
 class udpServer(DatagramProtocol):
 
     def __init__(self):
-        self.datas = []
-        self.lastPort = ''
         self.log = ''
+        self.caches = {}
 
-    def startProtocol(self):  # 其实就是 start updServer ，或许 class udpServer 改名 class updProtocol 会比较合适
+    def startProtocol(self):  # start updServer
         pass
 
     def stopProtocol(self):  # stop udpServer
-        printl(self.log, logfilePath, toConsole=False)  # 记录而不打印控制台
-
-    def _get_data_index(self,data)
         pass
-        return data
-
-
 
     def datagramReceived(self, data, client):
-        if port != self.lastPort:  # 如果端口和上一次不一样
-            if self.log:
-                printl(self.log, logfilePath, toConsole=False)  # 记录而不打印控制台
-            self.lastPort = port  # 重置上次端口
-            self.datas = []  # 清空数据
-            sys.stdout.write('\n')  # 控制台换行重新输出
-
-        cache=caches.get(client,None)
-        if cache is None:
-            cache={
-                "queue":Queue(),
-                "join_time":time.time()
-                }
-            caches[client]=cache
-            reactor.callInThread(savedata,client)
-
-        queue=cache["queue"]
-        queue.put(data)
-
-
         
+        caches = self.caches
 
-        time.sleep(1)  # 模拟数据处理所需时间
+        cache = caches.get(client,None)  # 从缓存区字典中取得对应客户端的缓存区
+        if cache is None:  # 如果不存在该缓存区
+            cache = {  # 则创建一个
+                'queue': PriorityQueue(),
+                'join_time': time.time(),
+                'last_remain': b''
+            }
+            caches[client] = cache  # 并保存到缓存区字典
+            reactor.callInThread(producer, client)  # 同时开启一个消费者线程，向 client 对应的队列取得数据
 
-        self.datas.append(data)  # push data
+        queue = cache["queue"]  # 如果存在该缓存区，则取得对应的缓存队列
+        data = splitUDPpackage(data)  # 对数据进行拆包，拆包后 data 获得三个属性： 本体body, 余体remain, 优先级priority
+        queue.put(data.body, data.priority)  # 将数据本体投入缓存队列（非阻塞式）
+        cache['last_remain'] = data.remain  # 将数据余体放入缓存相应位置
 
-        sys.stdout.write(' ' * 1 + '\r')  # 从头（\r）覆盖
-        sys.stdout.flush()  # 暂时输出
 
-        sys.stdout.write('from %s:%d received data: ' % (host, port))  # 不换行
-        sys.stdout.write(', '.join(self.datas) + '\r')  # 从头（\r）覆盖
-        sys.stdout.flush()  # 暂时输出
+    def savedata(client):
+        cache=caches.get(client,None)
+        queue=cache["queue"]
+        datas=ByteIO()
+        datalen=queue.qsize()
+        while True:
+            cur_time=time.time
+            if cur_time-time>10:
+                break;
 
-        self.log = ('from %s:%d received data: ' % (host, port)) + ', '.join(self.datas)
 
-        self.transport.write(data+': mewo', (host, port))
+        data=queue.get(data)
+        datas.write(data)
+
+        with open("ffff.dat","wb") as f
+            f.write
+
+        del cache
+
+
+    def splitUDPpackage(self, data)
+        return data
