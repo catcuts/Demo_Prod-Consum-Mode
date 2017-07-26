@@ -8,7 +8,7 @@
 import os
 import twisted
 from twisted.internet import reactor
-from udpServer import udpServer
+from udpServer import VideoServer
 from utils.printl import printl
 from config.base import logfilePath
 
@@ -24,5 +24,5 @@ if __name__ == "__main__":
 	log = 'start linstening UPD on port ' + port
 	printl(log, logfilePath, toConsole=True, reset=True)
 
-	reactor.listenUDP(int(port), udpServer())
+	reactor.listenUDP(int(port), VideoServer())
 	reactor.run()

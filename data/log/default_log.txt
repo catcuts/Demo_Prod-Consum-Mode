@@ -1,2 +1,539 @@
 start linstening UPD on port 9999
-from 192.168.38.183:64194 received data: Michael, Tracy, Sarah, Catcuts, Adam, Bob, Lucy, HanMeimei, LiLei
+from client ('192.168.38.183', 7000) received '\xff\xd8\xff\xe0\x00\x10JFIF\x00\x01\x01\x00\x00\x01\x00\x01\x00\x00\xff\xdb\x00\x84\x00\t\x06\x07\x13\x13\x12\x13\x10\x13\x12\x15\x15\x15\x15\x16\x15\x15\x10\x15\x15\x18\x15\x18\x16\x16\x17\x17\x12\x16\x17\x18\x13\x18\x17\x18\x1f( \x1a'
+Caller: start a session for client: ('192.168.38.183', 7000)
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Consumer: start observing queue of client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\x1a%\x1b\x15\x1e!1#%)+20.\x17\x1f383-7(-.+\x01\n\n\n\x05\x05\x05\x0e\x05\x05\x0e+\x19\x13\x19++++++++++++++++++++++++'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '++++++++++++++++++++++++++\xff\xc0\x00\x11\x08\x00\xb3\x00\xb3\x03\x01"\x00\x02\x11\x01\x03\x11\x01\xff\xc4\x00\x1c\x00\x01\x00\x01\x05\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\x00\x00\x00\x08\x01\x04\x05\x06\x07\x03\x02\xff\xc4\x00D\x10\x00\x01\x03\x02\x03\x04\x06\x07\x05\x06\x03\t\x00\x00\x00\x00\x01\x00\x02\x03\x04\x11\x05\x12!\x061AQ\x07\x13"aq\x81\x08\x142R\x91\xa1\xb1Bbr\x82\xa2#'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '3S\x92\xc1\xd14\xb2\xf0\x15\x17Ds\x83\xb3\xc2\xc3\xd2\xff\xc4\x00\x14\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xff\xc4\x00\x14\x11\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xff\xda\x00'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\x0c\x03\x01\x00\x02\x11\x03\x11\x00?\x00\xee(\x88\x80\x88\x88\x0bW\xe9\x13k\x9b\x86\xd2\x1a\x82\xdc\xcfq\xea\xe0o\x03!\x04\x8c\xc7\x83@\x04\x9f\x05\xb4\x15\x16z^\xdb3\x88U\x963\xf7\x14\xe5\xec\x86\xdfl\xdc\x07\xcb'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\xe7\x94[\xb8w\xa0\xd3\xb1\\JZ\x89_<\xcf/\x91\xe6\xefq\xfaw\x01\xc9Z" ""\x02" ""\x02\xcc\xec\xa6\xd2OA;j u\x88\xd1\xed>\xcb\xdb}X\xe1\xcb\xe8\xb0\xc8\x82dl\x96\xd1E'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '_M\x1dTGG\x0b=\xb7\xb9c\xc0\x19\xa3wx\xbf\xc0\x82\xb3J)\xf4Y\xb6\x8e\xc3\xaa\x86bM<\xa5\xad\xa8o!\xc2P9\xb6\xfeb\xe1J\x98\x9e\x1c\x03\x81\x04\x10\x08#q\x07PB\x0f\xb4D@DD'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received "\x04D@DD\x04DA\xab\xf4\x8f\x8d\xfa\xad\x04\xcfi\xb4\x8f\x1dL?\x8e^\xc8>W'\xc9D\xba\xa9\x01q\xb7\xb24`\xfb\xa3w\x9a\xec\xfd=cE\xf5t\xb4M&\xd0\xb5\xd3\xc89\xbd\xc0\x86y\x80\xdf\xd6"
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\xb8\x9b\x85\xb4\xe5\xbd\x05\x11\x11\x01\x11\x10\x11\x11\x01\x11\x10\x11\x11\x01In\x826\x9f\xd6hM3\xcd\xe4\xa5!\x9b\xee]\x11\x17c\xbc\xb5o\xe5\x1c\xd4i[\x9fD\xdbM\xea8\x84Oq\xb4R\xfe\xc6n\xe0\xf2\x00'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\x7f\xe5u\x8f\x85\xd0J\xf4T\n\xa8\x08\x88\x80\x88\x88\x08\x88\x80\xbe^\xf0\x01$\xd8\x01rO\x007\x95\xf4\xb5\xae\x91\xb1\x1fW\xc3k%\xbd\x8fR\xf67\xf1<d\x1f\xe6A\x1b1lh\xd6b\x155\x9c\x1e\xe2\xe6'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\x03\xc1\x8d 4wvZ\xb5U\x91\xc2M\x84\xa7\xee\x1f\xea\xb1\xc8\x08\x88\x80\x88\x88\te\xf4\xd6\x13{\x0b\xdbS\xdc9\xf8*Y\x05\x11\x11\x01\x11\x10\x11\x11\x04\xb2\xe8\xa7hEn\x1b\x0c\x84\xdd\xf1\x8e\xa6ny\xd8'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\x06\xbem \xf9\xad\xc1G\xbfGltGS5\x13\x9da;C\xe2\x1c\xdf\x187\x03\xbf)\xfd*B ""\x02" ""\x02\xe4\xde\x91x\x81e\x0c0\x03\xfb\xe9\xae\xe1\xcd\xb1\xb4\xb8\xfe\xa2\xd5\xd6W\x06\xf4'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\x95\x9e\xf2\xd0\xc7\xee\xb2w\xff\x00;\xa3\x1f\xf8 \xe4\xf8x\xfd\x94\xc7\x98\x16\xf2k\xaf\xf5\x0b\x1c\xb2\xf8kAkXO\xef\x04\xd6\xf1\xc8\x03~m#\xcdbPQ\x15\xfd-\x1bK\x03\x8b\x81..`m\xfbMu'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received "\x81i#\x8bN\xa3\xc4+,\xa6\xf6\xb6\xbb\xad\xc5\x03!\xb6ki{\x13\xc8\xf2_!o\x9b\x0f\xb0\xf8\x8c\xd2\x02)\x1d\xd4?\xb31\x9c:8\xdd\x19\xb5\xc8'\xb5q\xbc9\xa0\xd8\x85\xda\xb6k\xa2|:\x94\\\xc4"
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received 'g\x7f\xbd9\x0f\xb7s@\x01\xbev\xba\x0e\r\x81\xec\xd6%\x15\\}E+\xe5{r\xbcY\xb9\xa1\x927s\x7f\xb0c{n5<\xf8\xad\xf3j\xba\x18{\xc0\xa8\xa2oU\x9cf}3\xc8&7\x1dKZ\xfb\xd8'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\x8b\xae\xed\x14Mh\rh\x01\xa0Y\xa0\x0b\x009\x00\x17\xda\x08I[H\xf8\x9e\xe8\xa4nW\xb0\x96\xbc\x1e\x04\x12\x08\xf8\x85\xe0\xb7.\x97\xa8\xba\xacZ\xa9\xbc\x1c\xe1#|\x1e\xd0~\xb7Zj\x02" ""\x0c\x86'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received "\x01\x8a:\x96\xa6\x1a\xa6{QH\xd7\x8e\xf0\x08\xbb|\x08\xb8\xf3S'\x0e\xadd\xd1G3\r\xd9#Z\xf6\x1e\xe7\x00G\xd5Bp\xa4\xafA8\xc9\x96\x84\xd2\xbc\xdd\xd4\xc4d>\xf4R\x0c\xcc>G3|\x82\x0e\x98"
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\x88\x88\x08\x88\x80\x88\x88\n9\xfaD<\xba\xbe>L\x85\x8d\x1en{\x8f\xd4)\x18\xa3\x97\xa4\x0f\xf8\xef\xca\xcf\xf2 \xe6\xd3HXa-\xd0\xb5\xadsO~b\xeb\xfcVB\x91\xb0\xf5\xec\x90\x81\xd58\xf5\x96\xb6`'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\xc2\xd2\x1c\xe8\xcb4\xcc\xd1\xca\xe2\xed\xe3u\x8d\xc4\xbfxG \xd1\xf0h^t\xb3\xe5sO\x00\xe0m\xe7\xfd\x90u\xdc;\xa2\x16T\xde\xbaJ\x86R\xd3>\xd228\xdc\xd9@c\x9a\x1d\xd9\x94\xe5hm\xc9\x02\xe0'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\x90\x06\xabv\xc3\xa9\xf0\xcc<\x89!\x89\x86K\x00\xfa\x89\xdc\xd6\xb8\x9d\xe5\xd9\x9dn\xd1\xdf\xa0\x17\\\xcfdv\xaf%,\x942H\x18 {\xccr;\xb4\xe1\x19>\xccQ\xdc^@\xeb\xd8\xdd\xa0\x07\\\x9b\x0b\x1c6'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '#\xb7\x0fk\x8bic\xea@\xec\x99I\xcfR\xe0\t\xf6\xa6#\xb1{\x9e\xcca\xb6\xbe\xf4\x123\n\xda&I#c\x0e7v\xad.c\xd8\xd3\xa5\xed\x1b\xde\xd6\xf5\x9ap\x03\xcdlJ,tm4\xf3\xe2pH\\'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\xe0\xd8\xe4l\xb5\x0f\x1a\xba\xcd\xf7\xde{G5\xacnw]JH\xa4\x0e\x01\xcd!\xcd"\xed \x82\x08;\x88#xA\xf6\x8a\x97UA\x1a\xbd \xe9\x8bq0\xfbi$\x11\x90y\xe5s\xda~\x8b\x99.\xdb\xe9+'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received 'K\xda\xa1\x98\r\xe2f8\xf8\x18\xdc\xd1\xf3+\x89 ""\x02" .\xc7\xd0\x8e \x1b=(m\xc6v\xcfK8;\x89i\xf5\x88H\xef\xb3\xa4\x1f\x91q\xc5\xd0z\x1e\xafk*\xa2k\x88\x07\xd6i\xcc\x7f\x8aA'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '$\x04\x7f,\xa8%\n D\x04D@DD\x05\x1e}!)\x88\xab\x0f\xe0[\x0f\xea\x12\x8f\xfdjC.5\xd3\xb5.g\x03m\xcc\xa7w\x86Z\x97\xb0|\xa6(8My\xfd\xac\x9f\x8d\xdf"W\x82\xf5\xa9u\xde'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\xf3\xcd\xce?2\xbc\x90l\xdb5\x8a\xb2\x97\x12\x86\xa2H\xc4\x8c\x124\xc8\xd2\x01\xd1\xcd\x17p\xbe\x97\x17\xb8\xf0]O\x1d\xd8q\x89U\t\x053)\xf5=`\x8e\xe0\xbb[\x17\xcd&\xe3\xbbt`\xf1\xed\x1d\xeb\x88W'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\xefi\xe6\xc6\x1f\x95\xbf\xa2\x91\xbb;\xb7\xf4\xd0`\xd0\xd7\xcc\xe1\x9f/V\xf6\xb6\xddd\xb3F2\xe5\x17\xd6\xf6\x00\xdc\xee\x06\xe83\x18~\x01A\x84\xd3\x99^\xe6F\xd6\xe52H\xeb6\xee\x06\xe0\x01\xbc\x92N\x83^'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received "\x0b\x94\xd5\xf4\xcd$t\xcc\xa5\xa2\x84FZ\x082\xc9\xad\x81q6\x8d\x83A`w\x93\xe4\xb4\x9d\xb4\xdb\x1a\x9cJ^\xb6gY\xa2\xfdTM'$c\xb8qw7q\xeeZ\xe2\r\xa2N\x911C\xa9\xae\x9b\xc8\x81"
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\xf4\x0b\xc5\xfbu\x89\x13s]?\xf3\x91\xf4Z\xea \xcb\xd5W\xd4\xd51\xc6Y\xa5\x9b!\xcd\xfbI\x1e\xe0\xd1\x94\xe6!\xa4\xd8n\x1f\x05\x88Y\xed\x9c\xdc\xf6\xf1{*?E+\xdc~\xab\x02\x80\x88\x88\x08\x88\x80\xb6'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received "N\x8fA5\xf4`q\xab\xa4\xf9T4\x9f\x90Z\xda\xea=\r`Y\xea\xe9\x9eF\xa1\xc6\xa0\xfd\xd6\xb09\xac\xbf\x8b\xb5\xf0pA$Q\x11\x01\x11\x10\x11\x11\x01q\xce\x9e'\xc8Y\x7f\xb5\x13?E[\x1c~\xa1v"
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '5\xc6=$`p\x8a\x92Q\xec\x93,O\xf1wW#\x7f\xed9\x07\t\xaae\x9e\xf1\xc9\xce\x1f\x02W\x92\xb9\xc4G\xed\x1cy\xd9\xdf\x10\t\xf9\x95l\x82\xe6\xa7VD{\x9c\xd3\xe4\xef\xecB\xbfe8\x96\x8c\xb9\x9e'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\xd5;\xc9\x95\xbc\x0b%\xca\x1b(\x1c\xc3\x9b\x94\xf7\x16rV\x11\x8c\xd18{\xae\x0e\x1e\x04ew\xd1\xbf\x05q\x80\xe2~\xaf({\x9b\x9e7\x03\x1c\xec\xf7\xe2~\x8fh\xe4m\xa8<\x08\x05\x069\x16_i\xb0oU'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\x9c\xc6\x1d\xd6F\xe0\xd9)\xe5\x1b\xa4\x89\xe2\xec\x7f\xc3C\xde\n\xc4 ""\r\x93d^\xd1UD\xc3\xbaG>7\x7f\xd7\xbc\x17\xf8\x15\xae\xc8\xc2\xd2ZE\x886#\x91\x1a\x10\xae\xa6\x90\xb1\xd0\xb9\xbb\xda\xd69\xbe'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '9\x8b\xbe\xab%\xb6\xd4\xe1\xb5N\x95\xbe\xc5C[S\x1f\x84\xc31\xf8;0\xf2A\x81DD\x04E\x94\xd9\xfd\x9f\xa9\xac\x94CM\x13\xa4q\xb5\xec;-\x1e\xf3\xdd\xb9\xa3\xc5\x07\xd6\xcb`\xef\xab\xaa\x8a\x99\x8c//'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received "p\xbbF\x9d\x91\xa9%\xdfe\xbc\xdd\xad\x87\x02t2\xa3d6J*\x16\xbd\xcd9\xa5\x97'Z\xed\xcd\x19Z\x00\x8e1\xf6c\x16\xd0\x12N\xba\x95\x88\xe8\xbf\xa3\xd6a\x91\xb9\xcfp\x92\xa2Ku\x8f\x03F\xb4n\x8d"
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\x97\xe1}I\xe3\xe4\xb7\xb4\x04D@DD\x04D@Z\x1fL\xf8{\xe6\xc3\x8bc\x00\xbf\xad\x8b \xdfrIm\x87y\xcda\xe2\xb7\xc5\x89\xda\x9a7\xcbK3"\xfd\xe8nx?\xe6\xc6C\xe3\xfdM\x08!\xedV'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received "\xad\x8d\xff\x00w)\xf1i\xfe\xc4\x15j\xba7I[8\xc8\xe4\x15\xb0\x8bRV\x9c\xed6#\xa8\xa8\xd4\xba'\x83\xec\x1b\xdcX\xfd\xe1\xc1s\xc9XZlE\x88\xde\x83\xd2\x8eP\xd7k\xec\x90Z\xef\x03\xa1>[\xfc"
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\x97\x9c\xd1\x16\xb8\xb4\xef\x1f\xea\xe3\xb9|+\xa6\xb8<\x00\xe3\x95\xc0X8\xee#\x83]\xcb\xc5\x06s\t\xc5\xe1\x96\x01CZ\\\x18\xcb\x9aJ\x86\x0c\xcf\xa7.\xd4\xb0\xb7\xed\xc2N\xa5\xbb\xc1\xd4+,gg%\x81\xbd'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received 'h,\x9a\x02l\xca\x88Nx\x89\xf7\\G\xb0\xff\x00\xba\xeb\x15\x8d\x96\x95\xed\x17-6\xf7\x86\xad\xfea\xa2\xf6\xc3\xb1I\xa0\xcf\xd5H\xe6\x89\x06YZ=\x97\xb7\x93\x9at;\xf8\xa0\xb2(\xaaU\x10]T\xea\xc8\xdd'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\xdcX|Zt\xf9\x11\xf3Y\xe8\x9e\xda\x9c9\xd1\x9f\xdf\xd1;4G\x8b\xa9\xa4wm\x84q\xc9!\xcd~\x01\xe5c0\x1c.z\x97\x18a\x82I\xb3Z\xe26\x92Zx:\xfb\x86\xfe$\rWh\xe8\xf3\xa1\xc1\x13'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\xbdb\xbc\xe66!\x94\xe0\xf6lF\xbdi\x1e\xd7\xe1\x1ax\xa0\xe0vW\x98^\x13=C\xba\xb8!\x92Wr\x8d\xaeu\xbcl4\x1d\xe5I\xdc/\xa2\xac2\x19&\x7fP$\x12\xe5\xb4r\xd9\xec\x8e\xd7\xb8e\xc5\xf5'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received "'\x89;\x80\xdc\xb6\xfa\x1a\x18\xe1h\x8e(\xd9\x1bF\xe6\xb1\xa1\xa3\xe0\x10F\xfc+\xa1\xca\xc7\xce\xday\xe4\x8a\x02\xe8\xfa\xd6o~`\x1c\x03\xda\x00\xb7i\xb7m\xc7\xde\x0b\xbcl6\xca\xc7\x87R\xb6\x95\x8e\xcen\xe7"
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received 'I%\x83K\xdc\xe3\xbc\x81\xc8X\x0e\xe0\xae6\x92\x9aL\xac\xa8\x84^X\t{Y\xfcV\x11i!\xde5s}\x93\xc1\xc1\xbc\x16C\x0f\xacd\xd1\xb2h\xcd\xd8\xf0\x1c\xd3\xdcy\x8e\x07\x85\x90\\\xa2"\x02" "'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '"\x02" ""\rs\x1c\xd8\xbaZ\xa1#d\x12\x06\xcaA\x95\x8c\x91\xcdc\xdc5\x0e-\xdc\x1d~"\xc4\xf1\\#n\xfa6\xa9\xa2\xeb\x0b^d\xa6h\x0e\x85\xc5\xa4\x9b_X\xdcZ;.\x1c/`o\xa7%'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '&\x95,\x82\x16bB"sD\x0b\x06\x99\xa3q\xcd\x94\xdb\\\xae\xe2\xdb\xf3\xd4+\x12\xa5\xf6=\xb0\x98}^\xb3\xd2\xc6]\xef6\xec\x7f\xf32\xc5j\x87\xa1\x1a\x10\xe7:9\xea\xa3k\xb7\xb0:\'\x01\xa6\xe0_\x19'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '?\x1b\xa0\x8d\xcdq\x17\xb1"\xfb\xec\xa8\xa4\xed7B\xf8KZ\x01\x8aY\x08\xde\xe7\xca\xf0]\xdere\x1f\x00\x16Cgz.\xc3h\xdd\xd62\x13#\xeeK_1\xce[\xae\x81\xa2\xc1\xa2\xdb\xafk\xf3%\x07\n\xd9'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\xbe\x8dkkFfS>\x06\xff\x00\x12bZ\xc3\xf8Z\xe1\x99\xdeW\x1d\xeb`\x83\xa1\x8cK\xab{\x1d\xea\x9a\x03\xd5\x92\\\\M\xf88\x01o;\xf8)\x11eT\x1a\xe6\xc2\x06\xb6\x94B\x19\x1cr@\xe3\x05Cb'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received 'nV\x89#\xb6\xb9w\xf6\x9aZ\xe1~\x0f\x0bcZ\xe6!#ik#\x9c\xb82:\x96\xf53\x97\x10\x1a%`.\x85\xf7:\x02[\x99\x86\xfb\xec\xc0\xb3\xec\x99\xa4\\8\x11\xcc\x10B\x0fD\xba\xc0\xe2\xfbeAM'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received 'q5d,p\xfb9\xda\xe7\xff\x00#n~K\x9bm?N\xd149\x940\x19\x1d\xb8K7e\x83\xbc0v\x9d\xe7d\x1dk\x18\xc5a\xa6\x89\xd3\xcf#c\x8d\x82\xees\x8d\xbc\x872y\x05\xc4\xf6c\xa6\x062'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\xbe`\xf8\xfa\xba)\xe4\xcc\xd1\xc6\x17\x1b\x03)\xd6\xd6q\xd5\xc0q\xd7\x9d\xf9\x86\xd2\xedM]s\xfa\xca\x99\x9c\xfb{\r\xdc\xc6\xfe\x16\x8d\x07\x8a\xdc\xfa.\xe8\xb9\xf5\xc5\x95u7\x8e\x94\x1b\x81\xa8|\xd6\xe0\xdeL\xbe'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\x97\xe3\xad\xb9\xa0\x92P\xca\xd749\xa4\x10@- \xdc\x10w\x10F\xf0\xbe\xd6\xb5\xfe\xcd\x92\x89\xd9\xe9X_Nm\xd6\xd2\x83\xab\x0f\xf1i\xef\xb8\xf3\x8e\xf66\xb8\xb1\xbel\xbe\x17\x8b\xc3P\xcc\xf1H\x1d\xc1\xcd\xdc'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\xf6;\x8b\x1e\xc3\xdac\x87\x10@!\x05\xf2*\x12\xa9\x9cs\x1f\x14\x1fH\xa9\x98"\n\xa2"\x02" "/9\xe7k\x1a^\xf7\x06\xb5\xa2\xees\x88\x00\x01\xc4\x93\xa0\x08=\x11`[\xb4\xcd\x93\xfc4\x13T\x0f}'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\x8d\x0c\x88\xf7\xb6YKZ\xf1\xde\xdb\xacn\xd1\xe3u\xb4\xd4\xd2\xd5\xc9\xea\xb026\x92Z\xee\xb2w\xb8\xfd\x96\x8b\x18\xc6bl-\xaa\r\xc1\x14a\x9f\xa6\x8cU\xd7\xb4\xb16\xfc\x1b\x13t\xee\x17\xb9V?\xef[\x16'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\xcc\x1d\xebgO\xb3\x91\x99O\x88\xb2\tX\xa8J\x8a\x15=)b\xcf\xff\x00\x8cs\x7f\x0bX?\xa2\x90\xf8.\xceG-<\x0f\xa9t\xb3\xb9\xd11\xd2\te\x91\xccqs\x017\x8e\xf98\xf2A\x87\xe9b\xa2\x1a\xac'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '6\xae\x9e)Y$\xb1\x86H\xe8\xd8\xe0\xe76\xd26\xc0\x86\xde\xc6\xe7v\xf5\x19\xeb(\xe5\x84\x96K\x1c\x91\x9e-{\\\xc3\xf0u\x94\xb9\xc4\xb0\xdc\xcf\x82\x968\x84p\x07\t\xa7-hkOT\xf6\xba8E\xb8\xb9'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received "\xe0\x13\xa1\xec\xb0\x8e+3SI\x1c\x9aI\x1b\x1f\xcb;C\xbe\xa8!L09\xda5\xaew\x0e\xc8'\xe8\xb6\xcc\x03\xa3,N\xaa\xc5\xb4\xce\x89\x9e\xfc\xff\x00\xb3\x1eA\xdd\xa3\xe2\x05\x94\xaa\xa7\xa2\x8e?b63\xf0"
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received "\xb5\xad\xfa\x05\xee\x83\x94\xecwB\xb4\xb4\xf6\x96\xad\xde\xb3 \xd43t-\xfc\xbb\xde|t\xee]N(\xc3@k@\x00\x0b\x004\x00\x0e\x00/\xb4AK-'\xa5Y)\xa9\xe8f\xab|\x11\xba`\xdc\x90<\xb4f"
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\x12?\xb2\xd7f\x1a\xe9\xbf\xf2\xad\xc6j\x80\x0eP\x0b\x9d\xbe\xc3\x7f\x89\xe4\x17\x03\xf4\x83\xda7I44\x02\xc0D:\xd9\xaco\xdb}\xc3Z|\x1b\xaf\xe7\xeeA\xcce\xc7\xea\xdc,\xea\xaa\x87\x0eFY\x08\xf9\x95a'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received ',\x85\xc6\xee%\xc7\x99$\x9f\x89_\x08\x82\xfa<b\xa1\xa05\xb5\x13\x007\x01#\xc0\x1e\x02\xea\x8a\xc9\x10N$D@DD\x16\xf5\xf5\xac\x867K#\x83X\xc1w\x13\xfe\xb5<\x00\x1b\xc9XZ<5\xf5.\x15'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received "\x15m\xec\x83zzg\x01\x961\xc1\xf2\x8f\xb7/\x8e\x8d\xdc\x05\xeeUjG\xacV\xb6\x13\xacT\xadl\xb2rt\xef'\xaam\xf8\xe4kK\xc8\xe6\xf6\x1e\x01l\x00 \x00\xb8\xb7\xa4v:Z\xcaz\x06\x9fl\x99\xa6"
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received "\xf0i\xcb\x1b|\x0b\xb3\x1f\xca\x17i*%t\xa7\x8dz\xd6'S%\xee\xd6<\xc3\x1f\xe1\x8f\xb3\xf37>h54D@R\xb3\xa2\xfd\xa4\x15Xt\x12:\xd7\x8d\xa2\x19H\xfb/`\x02\xce\x1ff\xed\xb1\xbf\x7f\x05"
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\x14\xd6\xfd\xd1&\xdc\x0c:\xa1\xcd\x96\xe6\x9e|\xa2^9\x1c=\x99\x00\xe3\xbc\x83\xdd\xe0\x82Q\xddUX\xd3\x06\xb9\xad\x92\t\x01c\x80sm\xda\x8d\xc0\xea\x08\xb6\xef"\xbdD\xeeo\xb6\xdb\x0fy\xba\x8f\x13\xc4\x04\x17'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '(\xa8\r\xf5_\x12\x93n\xc8\x04\xf7\x9b \xfb%[u\xa5\xda3A\xc5\xff\x00\xfc\xf3\xf1\xdd\xe2\xaa)\x89\xd6C\x9b\xee\x8d\x18<\xb8\xf9\xafg8\x01s`\x06\xa7\x80\x16A\x8d\xc6\xf1(\xa8\xa9\xa6\xa9~\x8d\x8d\x8e'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '{\xb5\xd5\xc4\r\x1bs\xbd\xc4\xd8\x0f\x15\x0f\xf1\x9cM\xf53\xcbS)\xbb\xe5y{\xb9jt\x03\xb8\r<\x97@\xe9\x9fo\x85l\xde\xabN\xfb\xd2\xc4u-\xdd4\x9c_~,\x1b\x87\x99\xe4\xb9\x92\x02" ""'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received "\t\xc4\x88\x88\x08\x88\x83\x01\xb1\xfa\xb2\xa1\xe7\xdau]Nc\xcf$\xa66\xfc\x18\xc6\x8f%\x9fDA\xf1)\xd0\x9e\xe3\xf4P\x85\xce'RnN\xa4\x9f\x1d\xe8\x88(\x88\x88\n\xa8\x88;\xef\xa3\x96!+\xe1\xaa\x85\xcf"
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '.\x8e\'Fbi\xd430vkw\x1bn]\x8d\x11\x00""\n\xae5\xe9\x0f\x8cO\x14pS\xc7+\x99\x1c\xc1\xdds[a\x9c\x03\xb8\x9d\xf6\xee\xbd\x8a"\x0e\x06U\x11\x10\x11\x11\x01\x11\x10\x7f\xff\xd9'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+Consumer: stop waiting for client: ('192.168.38.183', 7000) reason: overtime 10 sec
+Consumer: start saving data from client: ('192.168.38.183', 7000)
+Consumer: saved data from client: ('192.168.38.183', 7000) in file: D:\Documents\catcuts\project\Demo_Prod-Consum-Mode\data\video\video_1501048311.55.dat
+from client ('192.168.38.183', 7000) received '\xff\xd8\xff\xe0\x00\x10JFIF\x00\x01\x01\x00\x00\x01\x00\x01\x00\x00\xff\xdb\x00\x84\x00\t\x06\x07\x13\x13\x12\x13\x10\x13\x12\x15\x15\x15\x15\x16\x15\x15\x10\x15\x15\x18\x15\x18\x16\x16\x17\x17\x12\x16\x17\x18\x13\x18\x17\x18\x1f( \x1a'
+Caller: start a session for client: ('192.168.38.183', 7000)
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Consumer: start observing queue of client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\x1a%\x1b\x15\x1e!1#%)+20.\x17\x1f383-7(-.+\x01\n\n\n\x05\x05\x05\x0e\x05\x05\x0e+\x19\x13\x19++++++++++++++++++++++++'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '++++++++++++++++++++++++++\xff\xc0\x00\x11\x08\x00\xb3\x00\xb3\x03\x01"\x00\x02\x11\x01\x03\x11\x01\xff\xc4\x00\x1c\x00\x01\x00\x01\x05\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\x00\x00\x00\x08\x01\x04\x05\x06\x07\x03\x02\xff\xc4\x00D\x10\x00\x01\x03\x02\x03\x04\x06\x07\x05\x06\x03\t\x00\x00\x00\x00\x01\x00\x02\x03\x04\x11\x05\x12!\x061AQ\x07\x13"aq\x81\x08\x142R\x91\xa1\xb1Bbr\x82\xa2#'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '3S\x92\xc1\xd14\xb2\xf0\x15\x17Ds\x83\xb3\xc2\xc3\xd2\xff\xc4\x00\x14\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xff\xc4\x00\x14\x11\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xff\xda\x00'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\x0c\x03\x01\x00\x02\x11\x03\x11\x00?\x00\xee(\x88\x80\x88\x88\x0bW\xe9\x13k\x9b\x86\xd2\x1a\x82\xdc\xcfq\xea\xe0o\x03!\x04\x8c\xc7\x83@\x04\x9f\x05\xb4\x15\x16z^\xdb3\x88U\x963\xf7\x14\xe5\xec\x86\xdfl\xdc\x07\xcb'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\xe7\x94[\xb8w\xa0\xd3\xb1\\JZ\x89_<\xcf/\x91\xe6\xefq\xfaw\x01\xc9Z" ""\x02" ""\x02\xcc\xec\xa6\xd2OA;j u\x88\xd1\xed>\xcb\xdb}X\xe1\xcb\xe8\xb0\xc8\x82dl\x96\xd1E'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '_M\x1dTGG\x0b=\xb7\xb9c\xc0\x19\xa3wx\xbf\xc0\x82\xb3J)\xf4Y\xb6\x8e\xc3\xaa\x86bM<\xa5\xad\xa8o!\xc2P9\xb6\xfeb\xe1J\x98\x9e\x1c\x03\x81\x04\x10\x08#q\x07PB\x0f\xb4D@DD'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received "\x04D@DD\x04DA\xab\xf4\x8f\x8d\xfa\xad\x04\xcfi\xb4\x8f\x1dL?\x8e^\xc8>W'\xc9D\xba\xa9\x01q\xb7\xb24`\xfb\xa3w\x9a\xec\xfd=cE\xf5t\xb4M&\xd0\xb5\xd3\xc89\xbd\xc0\x86y\x80\xdf\xd6"
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\xb8\x9b\x85\xb4\xe5\xbd\x05\x11\x11\x01\x11\x10\x11\x11\x01\x11\x10\x11\x11\x01In\x826\x9f\xd6hM3\xcd\xe4\xa5!\x9b\xee]\x11\x17c\xbc\xb5o\xe5\x1c\xd4i[\x9fD\xdbM\xea8\x84Oq\xb4R\xfe\xc6n\xe0\xf2\x00'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\x7f\xe5u\x8f\x85\xd0J\xf4T\n\xa8\x08\x88\x80\x88\x88\x08\x88\x80\xbe^\xf0\x01$\xd8\x01rO\x007\x95\xf4\xb5\xae\x91\xb1\x1fW\xc3k%\xbd\x8fR\xf67\xf1<d\x1f\xe6A\x1b1lh\xd6b\x155\x9c\x1e\xe2\xe6'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\x03\xc1\x8d 4wvZ\xb5U\x91\xc2M\x84\xa7\xee\x1f\xea\xb1\xc8\x08\x88\x80\x88\x88\te\xf4\xd6\x13{\x0b\xdbS\xdc9\xf8*Y\x05\x11\x11\x01\x11\x10\x11\x11\x04\xb2\xe8\xa7hEn\x1b\x0c\x84\xdd\xf1\x8e\xa6ny\xd8'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\x06\xbem \xf9\xad\xc1G\xbfGltGS5\x13\x9da;C\xe2\x1c\xdf\x187\x03\xbf)\xfd*B ""\x02" ""\x02\xe4\xde\x91x\x81e\x0c0\x03\xfb\xe9\xae\xe1\xcd\xb1\xb4\xb8\xfe\xa2\xd5\xd6W\x06\xf4'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\x95\x9e\xf2\xd0\xc7\xee\xb2w\xff\x00;\xa3\x1f\xf8 \xe4\xf8x\xfd\x94\xc7\x98\x16\xf2k\xaf\xf5\x0b\x1c\xb2\xf8kAkXO\xef\x04\xd6\xf1\xc8\x03~m#\xcdbPQ\x15\xfd-\x1bK\x03\x8b\x81..`m\xfbMu'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received "\x81i#\x8bN\xa3\xc4+,\xa6\xf6\xb6\xbb\xad\xc5\x03!\xb6ki{\x13\xc8\xf2_!o\x9b\x0f\xb0\xf8\x8c\xd2\x02)\x1d\xd4?\xb31\x9c:8\xdd\x19\xb5\xc8'\xb5q\xbc9\xa0\xd8\x85\xda\xb6k\xa2|:\x94\\\xc4"
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received 'g\x7f\xbd9\x0f\xb7s@\x01\xbev\xba\x0e\r\x81\xec\xd6%\x15\\}E+\xe5{r\xbcY\xb9\xa1\x927s\x7f\xb0c{n5<\xf8\xad\xf3j\xba\x18{\xc0\xa8\xa2oU\x9cf}3\xc8&7\x1dKZ\xfb\xd8'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\x8b\xae\xed\x14Mh\rh\x01\xa0Y\xa0\x0b\x009\x00\x17\xda\x08I[H\xf8\x9e\xe8\xa4nW\xb0\x96\xbc\x1e\x04\x12\x08\xf8\x85\xe0\xb7.\x97\xa8\xba\xacZ\xa9\xbc\x1c\xe1#|\x1e\xd0~\xb7Zj\x02" ""\x0c\x86'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received "\x01\x8a:\x96\xa6\x1a\xa6{QH\xd7\x8e\xf0\x08\xbb|\x08\xb8\xf3S'\x0e\xadd\xd1G3\r\xd9#Z\xf6\x1e\xe7\x00G\xd5Bp\xa4\xafA8\xc9\x96\x84\xd2\xbc\xdd\xd4\xc4d>\xf4R\x0c\xcc>G3|\x82\x0e\x98"
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\x88\x88\x08\x88\x80\x88\x88\n9\xfaD<\xba\xbe>L\x85\x8d\x1en{\x8f\xd4)\x18\xa3\x97\xa4\x0f\xf8\xef\xca\xcf\xf2 \xe6\xd3HXa-\xd0\xb5\xadsO~b\xeb\xfcVB\x91\xb0\xf5\xec\x90\x81\xd58\xf5\x96\xb6`'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\xc2\xd2\x1c\xe8\xcb4\xcc\xd1\xca\xe2\xed\xe3u\x8d\xc4\xbfxG \xd1\xf0h^t\xb3\xe5sO\x00\xe0m\xe7\xfd\x90u\xdc;\xa2\x16T\xde\xbaJ\x86R\xd3>\xd228\xdc\xd9@c\x9a\x1d\xd9\x94\xe5hm\xc9\x02\xe0'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\x90\x06\xabv\xc3\xa9\xf0\xcc<\x89!\x89\x86K\x00\xfa\x89\xdc\xd6\xb8\x9d\xe5\xd9\x9dn\xd1\xdf\xa0\x17\\\xcfdv\xaf%,\x942H\x18 {\xccr;\xb4\xe1\x19>\xccQ\xdc^@\xeb\xd8\xdd\xa0\x07\\\x9b\x0b\x1c6'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '#\xb7\x0fk\x8bic\xea@\xec\x99I\xcfR\xe0\t\xf6\xa6#\xb1{\x9e\xcca\xb6\xbe\xf4\x123\n\xda&I#c\x0e7v\xad.c\xd8\xd3\xa5\xed\x1b\xde\xd6\xf5\x9ap\x03\xcdlJ,tm4\xf3\xe2pH\\'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\xe0\xd8\xe4l\xb5\x0f\x1a\xba\xcd\xf7\xde{G5\xacnw]JH\xa4\x0e\x01\xcd!\xcd"\xed \x82\x08;\x88#xA\xf6\x8a\x97UA\x1a\xbd \xe9\x8bq0\xfbi$\x11\x90y\xe5s\xda~\x8b\x99.\xdb\xe9+'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received 'K\xda\xa1\x98\r\xe2f8\xf8\x18\xdc\xd1\xf3+\x89 ""\x02" .\xc7\xd0\x8e \x1b=(m\xc6v\xcfK8;\x89i\xf5\x88H\xef\xb3\xa4\x1f\x91q\xc5\xd0z\x1e\xafk*\xa2k\x88\x07\xd6i\xcc\x7f\x8aA'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '$\x04\x7f,\xa8%\n D\x04D@DD\x05\x1e}!)\x88\xab\x0f\xe0[\x0f\xea\x12\x8f\xfdjC.5\xd3\xb5.g\x03m\xcc\xa7w\x86Z\x97\xb0|\xa6(8My\xfd\xac\x9f\x8d\xdf"W\x82\xf5\xa9u\xde'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\xf3\xcd\xce?2\xbc\x90l\xdb5\x8a\xb2\x97\x12\x86\xa2H\xc4\x8c\x124\xc8\xd2\x01\xd1\xcd\x17p\xbe\x97\x17\xb8\xf0]O\x1d\xd8q\x89U\t\x053)\xf5=`\x8e\xe0\xbb[\x17\xcd&\xe3\xbbt`\xf1\xed\x1d\xeb\x88W'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\xefi\xe6\xc6\x1f\x95\xbf\xa2\x91\xbb;\xb7\xf4\xd0`\xd0\xd7\xcc\xe1\x9f/V\xf6\xb6\xddd\xb3F2\xe5\x17\xd6\xf6\x00\xdc\xee\x06\xe83\x18~\x01A\x84\xd3\x99^\xe6F\xd6\xe52H\xeb6\xee\x06\xe0\x01\xbc\x92N\x83^'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received "\x0b\x94\xd5\xf4\xcd$t\xcc\xa5\xa2\x84FZ\x082\xc9\xad\x81q6\x8d\x83A`w\x93\xe4\xb4\x9d\xb4\xdb\x1a\x9cJ^\xb6gY\xa2\xfdTM'$c\xb8qw7q\xeeZ\xe2\r\xa2N\x911C\xa9\xae\x9b\xc8\x81"
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\xf4\x0b\xc5\xfbu\x89\x13s]?\xf3\x91\xf4Z\xea \xcb\xd5W\xd4\xd51\xc6Y\xa5\x9b!\xcd\xfbI\x1e\xe0\xd1\x94\xe6!\xa4\xd8n\x1f\x05\x88Y\xed\x9c\xdc\xf6\xf1{*?E+\xdc~\xab\x02\x80\x88\x88\x08\x88\x80\xb6'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received "N\x8fA5\xf4`q\xab\xa4\xf9T4\x9f\x90Z\xda\xea=\r`Y\xea\xe9\x9eF\xa1\xc6\xa0\xfd\xd6\xb09\xac\xbf\x8b\xb5\xf0pA$Q\x11\x01\x11\x10\x11\x11\x01q\xce\x9e'\xc8Y\x7f\xb5\x13?E[\x1c~\xa1v"
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '5\xc6=$`p\x8a\x92Q\xec\x93,O\xf1wW#\x7f\xed9\x07\t\xaae\x9e\xf1\xc9\xce\x1f\x02W\x92\xb9\xc4G\xed\x1cy\xd9\xdf\x10\t\xf9\x95l\x82\xe6\xa7VD{\x9c\xd3\xe4\xef\xecB\xbfe8\x96\x8c\xb9\x9e'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\xd5;\xc9\x95\xbc\x0b%\xca\x1b(\x1c\xc3\x9b\x94\xf7\x16rV\x11\x8c\xd18{\xae\x0e\x1e\x04ew\xd1\xbf\x05q\x80\xe2~\xaf({\x9b\x9e7\x03\x1c\xec\xf7\xe2~\x8fh\xe4m\xa8<\x08\x05\x069\x16_i\xb0oU'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\x9c\xc6\x1d\xd6F\xe0\xd9)\xe5\x1b\xa4\x89\xe2\xec\x7f\xc3C\xde\n\xc4 ""\r\x93d^\xd1UD\xc3\xbaG>7\x7f\xd7\xbc\x17\xf8\x15\xae\xc8\xc2\xd2ZE\x886#\x91\x1a\x10\xae\xa6\x90\xb1\xd0\xb9\xbb\xda\xd69\xbe'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '9\x8b\xbe\xab%\xb6\xd4\xe1\xb5N\x95\xbe\xc5C[S\x1f\x84\xc31\xf8;0\xf2A\x81DD\x04E\x94\xd9\xfd\x9f\xa9\xac\x94CM\x13\xa4q\xb5\xec;-\x1e\xf3\xdd\xb9\xa3\xc5\x07\xd6\xcb`\xef\xab\xaa\x8a\x99\x8c//'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received "p\xbbF\x9d\x91\xa9%\xdfe\xbc\xdd\xad\x87\x02t2\xa3d6J*\x16\xbd\xcd9\xa5\x97'Z\xed\xcd\x19Z\x00\x8e1\xf6c\x16\xd0\x12N\xba\x95\x88\xe8\xbf\xa3\xd6a\x91\xb9\xcfp\x92\xa2Ku\x8f\x03F\xb4n\x8d"
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\x97\xe1}I\xe3\xe4\xb7\xb4\x04D@DD\x04D@Z\x1fL\xf8{\xe6\xc3\x8bc\x00\xbf\xad\x8b \xdfrIm\x87y\xcda\xe2\xb7\xc5\x89\xda\x9a7\xcbK3"\xfd\xe8nx?\xe6\xc6C\xe3\xfdM\x08!\xedV'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received "\xad\x8d\xff\x00w)\xf1i\xfe\xc4\x15j\xba7I[8\xc8\xe4\x15\xb0\x8bRV\x9c\xed6#\xa8\xa8\xd4\xba'\x83\xec\x1b\xdcX\xfd\xe1\xc1s\xc9XZlE\x88\xde\x83\xd2\x8eP\xd7k\xec\x90Z\xef\x03\xa1>[\xfc"
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\x97\x9c\xd1\x16\xb8\xb4\xef\x1f\xea\xe3\xb9|+\xa6\xb8<\x00\xe3\x95\xc0X8\xee#\x83]\xcb\xc5\x06s\t\xc5\xe1\x96\x01CZ\\\x18\xcb\x9aJ\x86\x0c\xcf\xa7.\xd4\xb0\xb7\xed\xc2N\xa5\xbb\xc1\xd4+,gg%\x81\xbd'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received 'h,\x9a\x02l\xca\x88Nx\x89\xf7\\G\xb0\xff\x00\xba\xeb\x15\x8d\x96\x95\xed\x17-6\xf7\x86\xad\xfea\xa2\xf6\xc3\xb1I\xa0\xcf\xd5H\xe6\x89\x06YZ=\x97\xb7\x93\x9at;\xf8\xa0\xb2(\xaaU\x10]T\xea\xc8\xdd'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\xdcX|Zt\xf9\x11\xf3Y\xe8\x9e\xda\x9c9\xd1\x9f\xdf\xd1;4G\x8b\xa9\xa4wm\x84q\xc9!\xcd~\x01\xe5c0\x1c.z\x97\x18a\x82I\xb3Z\xe26\x92Zx:\xfb\x86\xfe$\rWh\xe8\xf3\xa1\xc1\x13'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\xbdb\xbc\xe66!\x94\xe0\xf6lF\xbdi\x1e\xd7\xe1\x1ax\xa0\xe0vW\x98^\x13=C\xba\xb8!\x92Wr\x8d\xaeu\xbcl4\x1d\xe5I\xdc/\xa2\xac2\x19&\x7fP$\x12\xe5\xb4r\xd9\xec\x8e\xd7\xb8e\xc5\xf5'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received "'\x89;\x80\xdc\xb6\xfa\x1a\x18\xe1h\x8e(\xd9\x1bF\xe6\xb1\xa1\xa3\xe0\x10F\xfc+\xa1\xca\xc7\xce\xday\xe4\x8a\x02\xe8\xfa\xd6o~`\x1c\x03\xda\x00\xb7i\xb7m\xc7\xde\x0b\xbcl6\xca\xc7\x87R\xb6\x95\x8e\xcen\xe7"
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received 'I%\x83K\xdc\xe3\xbc\x81\xc8X\x0e\xe0\xae6\x92\x9aL\xac\xa8\x84^X\t{Y\xfcV\x11i!\xde5s}\x93\xc1\xc1\xbc\x16C\x0f\xacd\xd1\xb2h\xcd\xd8\xf0\x1c\xd3\xdcy\x8e\x07\x85\x90\\\xa2"\x02" "'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '"\x02" ""\rs\x1c\xd8\xbaZ\xa1#d\x12\x06\xcaA\x95\x8c\x91\xcdc\xdc5\x0e-\xdc\x1d~"\xc4\xf1\\#n\xfa6\xa9\xa2\xeb\x0b^d\xa6h\x0e\x85\xc5\xa4\x9b_X\xdcZ;.\x1c/`o\xa7%'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '&\x95,\x82\x16bB"sD\x0b\x06\x99\xa3q\xcd\x94\xdb\\\xae\xe2\xdb\xf3\xd4+\x12\xa5\xf6=\xb0\x98}^\xb3\xd2\xc6]\xef6\xec\x7f\xf32\xc5j\x87\xa1\x1a\x10\xe7:9\xea\xa3k\xb7\xb0:\'\x01\xa6\xe0_\x19'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '?\x1b\xa0\x8d\xcdq\x17\xb1"\xfb\xec\xa8\xa4\xed7B\xf8KZ\x01\x8aY\x08\xde\xe7\xca\xf0]\xdere\x1f\x00\x16Cgz.\xc3h\xdd\xd62\x13#\xeeK_1\xce[\xae\x81\xa2\xc1\xa2\xdb\xafk\xf3%\x07\n\xd9'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\xbe\x8dkkFfS>\x06\xff\x00\x12bZ\xc3\xf8Z\xe1\x99\xdeW\x1d\xeb`\x83\xa1\x8cK\xab{\x1d\xea\x9a\x03\xd5\x92\\\\M\xf88\x01o;\xf8)\x11eT\x1a\xe6\xc2\x06\xb6\x94B\x19\x1cr@\xe3\x05Cb'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received 'nV\x89#\xb6\xb9w\xf6\x9aZ\xe1~\x0f\x0bcZ\xe6!#ik#\x9c\xb82:\x96\xf53\x97\x10\x1a%`.\x85\xf7:\x02[\x99\x86\xfb\xec\xc0\xb3\xec\x99\xa4\\8\x11\xcc\x10B\x0fD\xba\xc0\xe2\xfbeAM'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received 'q5d,p\xfb9\xda\xe7\xff\x00#n~K\x9bm?N\xd149\x940\x19\x1d\xb8K7e\x83\xbc0v\x9d\xe7d\x1dk\x18\xc5a\xa6\x89\xd3\xcf#c\x8d\x82\xees\x8d\xbc\x872y\x05\xc4\xf6c\xa6\x062'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\xbe`\xf8\xfa\xba)\xe4\xcc\xd1\xc6\x17\x1b\x03)\xd6\xd6q\xd5\xc0q\xd7\x9d\xf9\x86\xd2\xedM]s\xfa\xca\x99\x9c\xfb{\r\xdc\xc6\xfe\x16\x8d\x07\x8a\xdc\xfa.\xe8\xb9\xf5\xc5\x95u7\x8e\x94\x1b\x81\xa8|\xd6\xe0\xdeL\xbe'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\x97\xe3\xad\xb9\xa0\x92P\xca\xd749\xa4\x10@- \xdc\x10w\x10F\xf0\xbe\xd6\xb5\xfe\xcd\x92\x89\xd9\xe9X_Nm\xd6\xd2\x83\xab\x0f\xf1i\xef\xb8\xf3\x8e\xf66\xb8\xb1\xbel\xbe\x17\x8b\xc3P\xcc\xf1H\x1d\xc1\xcd\xdc'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\xf6;\x8b\x1e\xc3\xdac\x87\x10@!\x05\xf2*\x12\xa9\x9cs\x1f\x14\x1fH\xa9\x98"\n\xa2"\x02" "/9\xe7k\x1a^\xf7\x06\xb5\xa2\xees\x88\x00\x01\xc4\x93\xa0\x08=\x11`[\xb4\xcd\x93\xfc4\x13T\x0f}'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\x8d\x0c\x88\xf7\xb6YKZ\xf1\xde\xdb\xacn\xd1\xe3u\xb4\xd4\xd2\xd5\xc9\xea\xb026\x92Z\xee\xb2w\xb8\xfd\x96\x8b\x18\xc6bl-\xaa\r\xc1\x14a\x9f\xa6\x8cU\xd7\xb4\xb16\xfc\x1b\x13t\xee\x17\xb9V?\xef[\x16'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\xcc\x1d\xebgO\xb3\x91\x99O\x88\xb2\tX\xa8J\x8a\x15=)b\xcf\xff\x00\x8cs\x7f\x0bX?\xa2\x90\xf8.\xceG-<\x0f\xa9t\xb3\xb9\xd11\xd2\te\x91\xccqs\x017\x8e\xf98\xf2A\x87\xe9b\xa2\x1a\xac'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '6\xae\x9e)Y$\xb1\x86H\xe8\xd8\xe0\xe76\xd26\xc0\x86\xde\xc6\xe7v\xf5\x19\xeb(\xe5\x84\x96K\x1c\x91\x9e-{\\\xc3\xf0u\x94\xb9\xc4\xb0\xdc\xcf\x82\x968\x84p\x07\t\xa7-hkOT\xf6\xba8E\xb8\xb9'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received "\xe0\x13\xa1\xec\xb0\x8e+3SI\x1c\x9aI\x1b\x1f\xcb;C\xbe\xa8!L09\xda5\xaew\x0e\xc8'\xe8\xb6\xcc\x03\xa3,N\xaa\xc5\xb4\xce\x89\x9e\xfc\xff\x00\xb3\x1eA\xdd\xa3\xe2\x05\x94\xaa\xa7\xa2\x8e?b63\xf0"
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received "\xb5\xad\xfa\x05\xee\x83\x94\xecwB\xb4\xb4\xf6\x96\xad\xde\xb3 \xd43t-\xfc\xbb\xde|t\xee]N(\xc3@k@\x00\x0b\x004\x00\x0e\x00/\xb4AK-'\xa5Y)\xa9\xe8f\xab|\x11\xba`\xdc\x90<\xb4f"
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\x12?\xb2\xd7f\x1a\xe9\xbf\xf2\xad\xc6j\x80\x0eP\x0b\x9d\xbe\xc3\x7f\x89\xe4\x17\x03\xf4\x83\xda7I44\x02\xc0D:\xd9\xaco\xdb}\xc3Z|\x1b\xaf\xe7\xeeA\xcce\xc7\xea\xdc,\xea\xaa\x87\x0eFY\x08\xf9\x95a'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received ',\x85\xc6\xee%\xc7\x99$\x9f\x89_\x08\x82\xfa<b\xa1\xa05\xb5\x13\x007\x01#\xc0\x1e\x02\xea\x8a\xc9\x10N$D@DD\x16\xf5\xf5\xac\x867K#\x83X\xc1w\x13\xfe\xb5<\x00\x1b\xc9XZ<5\xf5.\x15'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received "\x15m\xec\x83zzg\x01\x961\xc1\xf2\x8f\xb7/\x8e\x8d\xdc\x05\xeeUjG\xacV\xb6\x13\xacT\xadl\xb2rt\xef'\xaam\xf8\xe4kK\xc8\xe6\xf6\x1e\x01l\x00 \x00\xb8\xb7\xa4v:Z\xcaz\x06\x9fl\x99\xa6"
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received "\xf0i\xcb\x1b|\x0b\xb3\x1f\xca\x17i*%t\xa7\x8dz\xd6'S%\xee\xd6<\xc3\x1f\xe1\x8f\xb3\xf37>h54D@R\xb3\xa2\xfd\xa4\x15Xt\x12:\xd7\x8d\xa2\x19H\xfb/`\x02\xce\x1ff\xed\xb1\xbf\x7f\x05"
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '\x14\xd6\xfd\xd1&\xdc\x0c:\xa1\xcd\x96\xe6\x9e|\xa2^9\x1c=\x99\x00\xe3\xbc\x83\xdd\xe0\x82Q\xddUX\xd3\x06\xb9\xad\x92\t\x01c\x80sm\xda\x8d\xc0\xea\x08\xb6\xef"\xbdD\xeeo\xb6\xdb\x0fy\xba\x8f\x13\xc4\x04\x17'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '(\xa8\r\xf5_\x12\x93n\xc8\x04\xf7\x9b \xfb%[u\xa5\xda3A\xc5\xff\x00\xfc\xf3\xf1\xdd\xe2\xaa)\x89\xd6C\x9b\xee\x8d\x18<\xb8\xf9\xafg8\x01s`\x06\xa7\x80\x16A\x8d\xc6\xf1(\xa8\xa9\xa6\xa9~\x8d\x8d\x8e'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '{\xb5\xd5\xc4\r\x1bs\xbd\xc4\xd8\x0f\x15\x0f\xf1\x9cM\xf53\xcbS)\xbb\xe5y{\xb9jt\x03\xb8\r<\x97@\xe9\x9fo\x85l\xde\xabN\xfb\xd2\xc4u-\xdd4\x9c_~,\x1b\x87\x99\xe4\xb9\x92\x02" ""'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received "\t\xc4\x88\x88\x08\x88\x83\x01\xb1\xfa\xb2\xa1\xe7\xdau]Nc\xcf$\xa66\xfc\x18\xc6\x8f%\x9fDA\xf1)\xd0\x9e\xe3\xf4P\x85\xce'RnN\xa4\x9f\x1d\xe8\x88(\x88\x88\n\xa8\x88;\xef\xa3\x96!+\xe1\xaa\x85\xcf"
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+from client ('192.168.38.183', 7000) received '.\x8e\'Fbi\xd430vkw\x1bn]\x8d\x11\x00""\n\xae5\xe9\x0f\x8cO\x14pS\xc7+\x99\x1c\xc1\xdds[a\x9c\x03\xb8\x9d\xf6\xee\xbd\x8a"\x0e\x06U\x11\x10\x11\x11\x01\x11\x10\x7f\xff\xd9'
+Producer: start receiving data from client: ('192.168.38.183', 7000)
+Producer: start spliting UDP package from client: ('192.168.38.183', 7000)
+Producer: finish spliting UDP package from client: ('192.168.38.183', 7000)
+Consumer: stop waiting for client: ('192.168.38.183', 7000) reason: overtime 10 sec
+Consumer: start saving data from client: ('192.168.38.183', 7000)
+Consumer: saved data from client: ('192.168.38.183', 7000) in file: D:\Documents\catcuts\project\Demo_Prod-Consum-Mode\data\video\video_1501048311.55.dat
