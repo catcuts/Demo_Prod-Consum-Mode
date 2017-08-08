@@ -64,7 +64,7 @@ class VideoSession():
         cache['idle_time'] = time.time()  # 复位空闲时间点
         q = cache['queue']  # 如果存在该缓存区，则取得对应的缓存队列
         data = self.splitUDPpackage(data, 'b')  # 对数据进行拆包，拆包后 data 获得三个属性： 本体 body, 余体 remain, 优先级 priority, 大小 size
-        q.put(cache['last_remain'] + data['body'], data['priority'])  # 将数据本体投入缓存队列（非阻塞式）
+        q.put((data['priority'], cache['last_remain'] + data['body']))  # 将数据本体投入缓存队列（非阻塞式）
         cache['last_remain'] = data['remain']  # 将数据余体放入缓存相应位置
         cache['size'] += data['size']  # 计算缓存区新的大小
 
@@ -120,7 +120,7 @@ class VideoSession():
         with open(data_filepath, open_method) as f:
             data_len = q.qsize()
             for i in range(data_len):
-                data = q.get()
+                data = q.get()[1]
                 print('\tdata: %s' %data)
                 f.write(data)
         printl('Consumer: saved data from client: %s in file: %s' %(self.client, data_filepath), logfilePath)
